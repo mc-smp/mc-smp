@@ -1,5 +1,5 @@
-[12:55:07] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
-[12:55:07] [main/INFO]: Loading 47 mods:
+[09:04:16] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
+[09:04:16] [main/INFO]: Loading 47 mods:
 	- fabric-api 0.106.0+1.21.1
 	   |-- fabric-api-base 0.4.42+6573ed8c19
 	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
@@ -59,593 +59,179 @@
 	- moonrise 0.1.0-beta.6+9da9957
 	   \-- cloth-config 15.0.128
 	        \-- cloth-basic-math 0.6.1
-[12:55:07] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Minecraft/mc-smp/server-files/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[12:55:08] [main/INFO]: Compatibility level set to JAVA_17
-[12:55:08] [main/INFO]: Compatibility level set to JAVA_21
-[12:55:09] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[12:55:09] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[12:55:09] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[12:55:09] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
-[12:55:09] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[12:55:09] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[12:55:09] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[12:55:09] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[12:55:09] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.PoiSectionMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.PoiTypesMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.SectionStorageMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.LocateHidingPlaceMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.RaiderEntityAttackHomeGoalMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkCacheMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'alloc.deep_passengers.EntityMixin' as rule 'mixin.alloc.deep_passengers' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'alloc.entity_tracker.ChunkMap$TrackedEntityMixin' as rule 'mixin.alloc.entity_tracker' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'block.flatten_states.FluidStateMixin' as rule 'mixin.block.flatten_states' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'chunk.entity_class_groups.ClassInstanceMultiMapMixin' as rule 'mixin.chunk.entity_class_groups' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'chunk.no_validation.SimpleBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'chunk.no_validation.ZeroBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'collections.chunk_tickets.SortedArraySetMixin' as rule 'mixin.collections.chunk_tickets' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'collections.entity_ticking.EntityTickListMixin' as rule 'mixin.collections.entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.EntityGetterMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.LevelMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.movement.EntityMixin' as rule 'mixin.entity.collisions.movement' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.AbstractMinecartMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.BoatMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySectionMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySelectorMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractMinecartMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ArmorStandMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.GolemRandomStrollInVillageGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.HangingEntityMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ItemFrameMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.LlamaFollowCaravanGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.BlockPosMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.DirectionMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_util.AABBMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$BackwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$ForwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'math.fast_util.DirectionMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.ArrayVoxelShapeInvoker' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.BitSetDiscreteVoxelShapeAccessor' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.LevelMixin' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.world.expiring_chunk_tickets.DistanceManagerMixin' as rule 'mixin.minimal_nonvanilla.world.expiring_chunk_tickets' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'shapes.blockstate_cache.BlockMixin' as rule 'mixin.shapes.blockstate_cache' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'shapes.optimized_matching.ShapesMixin' as rule 'mixin.shapes.optimized_matching' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.ShapesMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapeMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.block_tracking.BlockStateBaseMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.block_tracking.LevelChunkSectionMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.EntitySectionMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.PersistentEntitySectionManagerAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerListenerMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerLevelAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.chunk_access.GenerationChunkHolderAccessor' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.chunk_access.LevelMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.chunk_access.ServerChunkCacheMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.explosions.block_raycast.ExplosionMixin' as rule 'mixin.world.explosions.block_raycast' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionDamageCalculatorMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.temperature_cache.BiomeMixin' as rule 'mixin.world.temperature_cache' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-disabling mixin 'world.tick_scheduler.LevelChunkTicksMixin' as rule 'mixin.world.tick_scheduler' (added by mods [moonrise]) disables it and children
-[12:55:09] [main/WARN]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[12:55:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[12:55:13] [main/INFO]: Compression will use Java, encryption will use Java
-[12:55:13] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[12:55:13] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[12:55:13] [main/INFO]: Loaded 1290 recipes
-[12:55:14] [main/INFO]: Loaded 1399 advancements
-[12:55:14] [main/INFO]: Chunk system is using population gen parallelism: false
-[12:55:14] [main/INFO]: Moonrise is using 3 worker threads, 1 I/O threads
-[12:55:14] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 743.5 μs
-[12:55:14] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[12:55:14] [Server thread/INFO]: Loading properties
-[12:55:14] [Server thread/INFO]: Default game type: SURVIVAL
-[12:55:14] [Server thread/INFO]: Generating keypair
-[12:55:14] [Server thread/INFO]: Starting Minecraft server on *:25565
-[12:55:14] [Server thread/INFO]: Using default channel type
-[12:55:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[12:55:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[12:55:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[12:55:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[12:55:14] [Server thread/INFO]: Preparing level "world"
-[12:55:15] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[12:55:16] [Server thread/INFO]: Preparing spawn area: 0%
-[12:55:16] [Server thread/INFO]: Time elapsed: 280 ms
-[12:55:16] [Server thread/INFO]: Done (1.461s)! For help, type "help"
-[12:55:19] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[12:55:51] [Server thread/INFO]: aleksa5636[IP hidden] logged in with entity id 7 at (11517.47014980279, 79.0, 2524.826987679742)
-[12:55:51] [Server thread/INFO]: aleksa5636 joined the game
-[12:56:11] [Server thread/INFO]: L0LBree[IP hidden] logged in with entity id 606 at (11447.357039623339, 84.0, 2560.1283839663997)
-[12:56:11] [Server thread/INFO]: L0LBree joined the game
-[13:00:23] [Server thread/INFO]: [Not Secure] <L0LBree> tu sam za min
-[13:04:21] [Server thread/INFO]: aleksa5636 lost connection: Disconnected
-[13:04:21] [Server thread/INFO]: aleksa5636 left the game
-[13:11:37] [Server thread/INFO]: L0LBree lost connection: Disconnected
-[13:11:37] [Server thread/INFO]: L0LBree left the game
-[13:25:22] [Server thread/INFO]: aleksa5636[IP hidden] logged in with entity id 2868 at (11474.329572465578, 78.0, 2515.647986433978)
-[13:25:22] [Server thread/INFO]: aleksa5636 joined the game
-[13:33:16] [Server thread/INFO]: aleksa5636 lost connection: Disconnected
-[13:33:16] [Server thread/INFO]: aleksa5636 left the game
-[13:35:45] [Server thread/INFO]: L0LBree[IP hidden] logged in with entity id 4652 at (11457.589211092038, 79.0, 2530.6236124340076)
-[13:35:45] [Server thread/INFO]: L0LBree joined the game
-[13:45:46] [Server thread/INFO]: L0LBree lost connection: Timed out
-[13:45:46] [Server thread/INFO]: L0LBree left the game
-[13:45:51] [Server thread/INFO]: L0LBree[IP hidden] logged in with entity id 6425 at (11507.804721970118, 78.0, 2519.0338007570517)
-[13:45:51] [Server thread/INFO]: L0LBree joined the game
-[13:53:21] [Server thread/INFO]: L0LBree lost connection: Timed out
-[13:53:21] [Server thread/INFO]: L0LBree left the game
-[13:54:16] [Server thread/INFO]: Dzzoniii[IP hidden] logged in with entity id 7951 at (12168.545766160683, 136.5625, 478.59630616428586)
-[13:54:16] [Server thread/INFO]: Dzzoniii joined the game
-[13:54:16] [Server thread/INFO]: L0LBree[IP hidden] logged in with entity id 7954 at (11445.62884471692, 79.49520087700593, 2536.495834152512)
-[13:54:16] [Server thread/INFO]: L0LBree joined the game
-[14:10:22] [Server thread/INFO]: L0LBree was burned to a crisp while fighting Zombie
-[14:10:30] [Server thread/WARN]: L0LBree moved too quickly! -748.6775503057579,-55.0,2140.442688099119
-[14:24:32] [Server thread/INFO]: Dzzoniii lost connection: Disconnected
-[14:24:32] [Server thread/INFO]: Dzzoniii left the game
-[14:55:32] [Server thread/INFO]: Dzzoniii[IP hidden] logged in with entity id 32361 at (12170.019125124556, 136.0, 480.10683399652356)
-[14:55:32] [Server thread/INFO]: Dzzoniii joined the game
-[15:36:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12236, y=111, z=424} class_2338{x=12236, y=111, z=423}
-[15:36:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12236, y=111, z=425} class_2338{x=12236, y=111, z=423}
-[15:36:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12236, y=111, z=424} class_2338{x=12236, y=111, z=423}
-[15:44:13] [Server thread/INFO]: NiqhtRaven[IP hidden] logged in with entity id 51215 at (12185.71513081769, 69.0, 1193.4635684406107)
-[15:44:13] [Server thread/INFO]: NiqhtRaven joined the game
-[15:44:27] [Server thread/INFO]: [Not Secure] <NiqhtRaven> ajde bre izlazite vise iz tog privatnog calla
-[15:44:30] [Server thread/INFO]: [Not Secure] <NiqhtRaven> jebem vas u usta
-[15:44:56] [Server thread/INFO]: [Not Secure] <NiqhtRaven> au strasno nema normalan vc
-[15:45:05] [Server thread/INFO]: [Not Secure] <NiqhtRaven> ili ste nesto sjebali
-[15:45:14] [Server thread/INFO]: [Not Secure] <Dzzoniii> a ti ne mozes uci
-[15:45:15] [Server thread/INFO]: [Not Secure] <Dzzoniii> aaa
-[15:45:41] [Server thread/INFO]: [Not Secure] <Dzzoniii> aj sad probaj
-[15:45:54] [Server thread/INFO]: [Not Secure] <NiqhtRaven> imate limit od 1 coveka
-[15:45:56] [Server thread/INFO]: [Not Secure] <NiqhtRaven> u vcu
-[15:46:02] [Server thread/INFO]: [Not Secure] <NiqhtRaven> a vas je dvojica nekako
-[15:46:08] [Server thread/INFO]: [Not Secure] <Dzzoniii> aj sad
-[15:46:11] [Server thread/INFO]: [Not Secure] <Dzzoniii> nezko je seto
-[15:52:00] [Server thread/INFO]: Villager class_1646['Villager'/37510, l='ServerLevel[world]', x=12150.62, y=63.18, z=25.20] died, message: 'Villager burned to death'
-[15:59:46] [Server thread/INFO]: [Not Secure] <NiqhtRaven> akik taman visok da mi ga poduva
-[16:27:24] [Server thread/INFO]: [Not Secure] <L0LBree> beki si zavrsio krov?
-[16:27:32] [Server thread/INFO]: [Not Secure] <NiqhtRaven> pusti ga da drka
-[16:34:26] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 74166 at (11487.962987338879, 70.0, 48.262170965542616)
-[16:34:26] [Server thread/INFO]: banecane109 joined the game
-[16:34:38] [Server thread/INFO]: banecane109 lost connection: Disconnected
-[16:34:38] [Server thread/INFO]: banecane109 left the game
-[16:34:46] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 75184 at (11487.962987338879, 70.0, 48.262170965542616)
-[16:34:46] [Server thread/INFO]: banecane109 joined the game
-[16:45:45] [Netty Server IO #16/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at knot/net.minecraft.class_9136.method_56426(class_9136.java:47) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9136.encode(class_9136.java:14) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2545.method_10838(class_2545.java:26) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2545.encode(class_2545.java:12) ~[server-intermediary.jar:?]
-	at knot/io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:863) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:968) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:856) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_2535$2.write(class_2535.java:530) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:881) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:940) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:966) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:934) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:1025) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:306) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/net.minecraft.class_2535.method_36942(class_2535.java:350) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_10764(class_2535.java:343) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_52906(class_2535.java:325) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.method_10752(class_2535.java:319) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2535.exceptionCaught(class_2535.java:170) ~[server-intermediary.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1377) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:907) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.handleReadException(AbstractNioByteChannel.java:125) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:177) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.97.Final.jar:?]
-	at knot/io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:?]
-	at knot/io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[16:56:53] [Server thread/INFO]: AbdulAcim[IP hidden] logged in with entity id 100668 at (12290.300000011921, 65.875, -698.6999999880791)
-[16:56:53] [Server thread/INFO]: AbdulAcim joined the game
-[16:58:33] [Server thread/INFO]: UXG34Y[IP hidden] logged in with entity id 103208 at (12241.489126063889, 75.0, 1713.699999988079)
-[16:58:33] [Server thread/INFO]: UXG34Y joined the game
-[17:00:30] [Server thread/INFO]: [Not Secure] <UXG34Y> 1538 93 213
-[17:02:54] [Server thread/INFO]: [Not Secure] <AbdulAcim> obojica smo
-[17:04:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> aqua afinity je
-[17:04:26] [Server thread/INFO]: [Not Secure] <AbdulAcim> lomis blokove u vodi
-[17:04:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> istom brzinom kao van
-[17:04:36] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne znam stvr
-[17:04:54] [Server thread/INFO]: [Not Secure] <AbdulAcim> treba meni gunpowder sacekaj
-[17:05:50] [Server thread/INFO]: [Not Secure] <UXG34Y> 卐 PEACE AND LOVE ✡
-[17:06:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> kao na primer soul speed
-[17:06:42] [Server thread/INFO]: [Not Secure] <AbdulAcim> gg.
-[17:06:46] [Server thread/INFO]: [Not Secure] <AbdulAcim> thunderstorm
-[17:06:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> mozes da spavas
-[17:12:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> Chunkbase jebeni.
-[17:12:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1613, y=54, z=128} class_2338{x=1614, y=55, z=128}
-[17:12:37] [Server thread/INFO]: [Not Secure] <AbdulAcim> ispod y40 bese se spawnuju?
-[17:12:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1616, y=49, z=125} class_2338{x=1616, y=53, z=122}
-[17:31:11] [Server thread/INFO]: [Not Secure] <AbdulAcim> vrv ja
-[17:31:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=13946, y=-8, z=806} class_2338{x=1854, y=34, z=78}
-[17:31:23] [Server thread/INFO]: [Not Secure] <AbdulAcim> je li onaj bastion sa chestovima na vrhu?
-[17:38:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1860, y=66, z=37} class_2338{x=1879, y=57, z=-52}
-[17:38:23] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1880, y=52, z=-53} class_2338{x=1880, y=51, z=-53}
-[17:40:05] [Server thread/INFO]: [Not Secure] <AbdulAcim> Video Settings
-[17:40:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> details
-[17:40:08] [Server thread/INFO]: [Not Secure] <AbdulAcim> Fog: off
-[17:42:00] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
-[17:42:10] [Server thread/INFO]: [Not Secure] <AbdulAcim> to koristis da namestis kompas da pointuje ka njemu
-[17:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12420, y=66, z=-954} class_2338{x=12420, y=66, z=-955}
-[17:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12420, y=66, z=-954} class_2338{x=12420, y=66, z=-955}
-[17:42:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12420, y=66, z=-954} class_2338{x=12420, y=66, z=-955}
-[17:42:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12418, y=71, z=-956} class_2338{x=12418, y=70, z=-954}
-[17:42:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12418, y=71, z=-956} class_2338{x=12418, y=70, z=-954}
-[17:47:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2000, y=43, z=-163} class_2338{x=1871, y=49, z=2}
-[17:47:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2000, y=43, z=-163} class_2338{x=1871, y=49, z=2}
-[17:47:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2000, y=43, z=-163} class_2338{x=1871, y=49, z=2}
-[17:47:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2000, y=43, z=-163} class_2338{x=1871, y=49, z=2}
-[17:47:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11500, y=78, z=2527} class_2338{x=11471, y=79, z=2526}
-[17:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1857, y=64, z=12} class_2338{x=1857, y=63, z=11}
-[17:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1857, y=64, z=12} class_2338{x=1857, y=63, z=11}
-[17:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1857, y=64, z=12} class_2338{x=1857, y=63, z=11}
-[17:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1857, y=64, z=12} class_2338{x=1857, y=63, z=11}
-[17:47:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1857, y=64, z=12} class_2338{x=1857, y=63, z=11}
-[17:48:16] [Server thread/INFO]: [Not Secure] <banecane109> nemojte da spavate
-[17:48:20] [Server thread/INFO]: [Not Secure] <Dzzoniii> e bas hocemo
-[17:49:16] [Server thread/INFO]: aleksa5636[IP hidden] logged in with entity id 147357 at (11447.083646055187, 79.5, 2534.564642915676)
-[17:49:16] [Server thread/INFO]: aleksa5636 joined the game
-[17:49:25] [Server thread/INFO]: [Not Secure] <NiqhtRaven> ai generated ime
-[17:51:14] [Server thread/INFO]: [Not Secure] <AbdulAcim> nmg
-[17:51:19] [Server thread/INFO]: [Not Secure] <NiqhtRaven> drka lik
-[17:56:01] [Server thread/INFO]: Gave 30 [Ancient Debris] to UXG34Y
-[18:03:44] [Server thread/INFO]: [Not Secure] <banecane109> sto si defovan andjelicu??
-[18:04:06] [Server thread/INFO]: UXG34Y lost connection: Disconnected
-[18:04:06] [Server thread/INFO]: UXG34Y left the game
-[18:07:24] [Server thread/INFO]: banecane109 lost connection: Disconnected
-[18:07:24] [Server thread/INFO]: banecane109 left the game
-[18:09:14] [Server thread/INFO]: UXG34Y[IP hidden] logged in with entity id 162677 at (12186.518315224734, 69.0, 1188.671888631754)
-[18:09:14] [Server thread/INFO]: UXG34Y joined the game
-[18:13:42] [Server thread/WARN]: Trying to set block entity net.minecraft.class_8174@34125cd0 at position class_2338{x=10334, y=39, z=-1121}, but state Block{minecraft:chest}[waterlogged=false,type=single,facing=north] does not allow it
-[18:25:51] [Server thread/INFO]: [Not Secure] <NiqhtRaven> ne diraj me
-[18:25:54] [Server thread/INFO]: [Not Secure] <NiqhtRaven> jejina me molestuje
-[18:26:00] [Server thread/INFO]: [Not Secure] <AbdulAcim> i treba
-[18:26:54] [Server thread/INFO]: [Not Secure] <Dzzoniii> haha
-[18:27:03] [Server thread/INFO]: [Not Secure] <UXG34Y> vlada sledeci
-[18:27:05] [Server thread/INFO]: [Not Secure] <Dzzoniii> au
-[18:27:12] [Server thread/INFO]: [Not Secure] <UXG34Y> ti si treci
-[18:27:14] [Server thread/INFO]: [Not Secure] <Dzzoniii> najeba ga vlada
-[18:31:58] [Server thread/INFO]: UXG34Y lost connection: Disconnected
-[18:31:58] [Server thread/INFO]: UXG34Y left the game
-[18:32:02] [Server thread/INFO]: NiqhtRaven lost connection: Disconnected
-[18:32:02] [Server thread/INFO]: NiqhtRaven left the game
-[18:33:53] [Server thread/INFO]: [Not Secure] <AbdulAcim> imam ja 2 w skulla
-[18:34:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> moze, samo gde?
-[18:34:10] [Server thread/INFO]: [Not Secure] <AbdulAcim> underground ili above ground?
-[18:37:49] [Server thread/INFO]: Villager class_1646['Nitwit'/178636, l='ServerLevel[world]', x=12277.30, y=64.00, z=-750.70] died, message: 'Nitwit was slain by Zombie'
-[18:37:56] [Server thread/INFO]: Villager class_1646['Villager'/178635, l='ServerLevel[world]', x=12277.70, y=64.00, z=-750.70] died, message: 'Villager was slain by Zombie Villager'
-[18:41:07] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 195560 at (11510.783343106503, 78.0, 2514.304342115508)
-[18:41:07] [Server thread/INFO]: banecane109 joined the game
-[18:46:03] [Server thread/INFO]: aleksa5636 fell from a high place
-[18:48:44] [Server thread/INFO]: [Not Secure] <AbdulAcim> cija ovo kuca
-[18:48:50] [Server thread/INFO]: [Not Secure] <AbdulAcim> meadows biome
-[18:48:53] [Server thread/INFO]: [Not Secure] <AbdulAcim> berar?
-[18:49:07] [Server thread/INFO]: [Not Secure] <AbdulAcim> ok
-[18:49:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> to ja pravio skin
-[18:49:36] [Server thread/INFO]: [Not Secure] <AbdulAcim> ma bre
-[18:49:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> onaj bre
-[18:49:50] [Server thread/INFO]: [Not Secure] <AbdulAcim> tlauncher
-[18:50:17] [Server thread/WARN]: AbdulAcim moved too quickly! -9.596539086172925,-1.804153011377366,15.845038394249286
-[18:50:34] [Server thread/INFO]: Villager class_1646['Farmer'/37511, l='ServerLevel[world]', x=12149.46, y=63.00, z=23.55] died, message: 'Farmer burned to death'
-[18:51:33] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
-[18:51:35] [Server thread/INFO]: [Not Secure] <AbdulAcim> to je moje
-[18:52:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> 4 soul sand
-[18:52:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> sada ne znam da li da pomazem beraru
-[18:53:56] [Server thread/INFO]: [Not Secure] <AbdulAcim> mineujem quartz
-[18:53:59] [Server thread/INFO]: [Not Secure] <AbdulAcim> za xp
-[18:54:02] [Server thread/INFO]: [Not Secure] <AbdulAcim> da repair elytru
-[18:54:32] [Server thread/INFO]: Dzzoniii lost connection: Disconnected
-[18:54:32] [Server thread/INFO]: Dzzoniii left the game
-[18:58:03] [Server thread/INFO]: [Not Secure] <AbdulAcim> imam unb 3 eff 4 fortune 2 pick ako oces
-[18:58:04] [Server thread/INFO]: [Not Secure] <AbdulAcim> visak
-[19:01:03] [Server thread/INFO]: Saving the game (this may take a moment!)
-[19:01:03] [Server thread/INFO]: Saved the game
-[19:01:05] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne letim elytrom u netheru upravo, ali nigde da nadjem soulsand
-[19:01:08] [Server thread/INFO]: [Not Secure] <banecane109> save-all
-[19:01:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> NE letim
-[19:03:37] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa napravite iron farmu
-[19:04:39] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
-[19:04:46] [Server thread/INFO]: [Not Secure] <AbdulAcim> on je meni svakako dao "ultimatum"
-[19:04:58] [Server thread/INFO]: [Not Secure] <AbdulAcim> "da do kraja dana nadjem alliance ili se pridruzim nekome"
-[19:05:19] [Server thread/INFO]: [Not Secure] <AbdulAcim> mi smo sada
-[19:05:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> friends with benefits
-[19:05:26] [Server thread/INFO]: [Not Secure] <AbdulAcim> ali bez seksa
-[19:06:07] [Server thread/INFO]: [Not Secure] <AbdulAcim> "zasto igras sam? ovo je multiplayer"
-[19:07:42] [Server thread/INFO]: [Not Secure] <AbdulAcim> i dzodan
-[19:09:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> mislim da sam se izgubio u vasem netheru
-[19:09:18] [Server thread/INFO]: [Not Secure] <AbdulAcim> koje su kordde portal?
-[19:09:54] [Server thread/INFO]: [Not Secure] <banecane109> 1442 324
-[19:10:13] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
-[19:10:21] [Server thread/INFO]: [Not Secure] <AbdulAcim> a jejina je meni pravio sacekusu u strongholdu
-[19:10:25] [Server thread/INFO]: [Not Secure] <AbdulAcim> i video moj gear pa se usrao
-[19:10:33] [Server thread/INFO]: [Not Secure] <AbdulAcim> i onda ukrao ancient debris i ostalo iz chesta
-[19:10:35] [Server thread/INFO]: [Not Secure] <AbdulAcim> bacio u end
-[19:10:42] [Server thread/INFO]: [Not Secure] <AbdulAcim> i onda otisao u end i bacio u void
-[19:13:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1387, y=69, z=296} class_2338{x=1387, y=75, z=297}
-[19:14:57] [Server thread/INFO]: [Not Secure] <AbdulAcim> nigde soulsanda
-[19:15:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> mogu da potrosim gold da se trade
-[19:18:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11501, y=79, z=2521} class_2338{x=1431, y=70, z=304}
-[19:19:28] [Server thread/INFO]: [Not Secure] <AbdulAcim> dobio soul sand
-[19:19:53] [Server thread/INFO]: [Not Secure] <AbdulAcim> bacam vam visak pickaxe
-[19:20:08] [Server thread/INFO]: [Not Secure] <L0LBree> netreba
-[19:20:12] [Server thread/INFO]: [Not Secure] <AbdulAcim> ni meni
-[19:20:55] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa zapravo
-[19:20:58] [Server thread/INFO]: [Not Secure] <AbdulAcim> imaju kao
-[19:21:05] [Server thread/INFO]: [Not Secure] <AbdulAcim> anti xray plugins
-[19:21:13] [Server thread/INFO]: [Not Secure] <AbdulAcim> zamaskiraju underground stone
-[19:21:20] [Server thread/INFO]: [Not Secure] <AbdulAcim> kao da budu random rude
-[19:21:31] [Server thread/INFO]: [Not Secure] <AbdulAcim> i ne mozes da znas sta je stone sta diamond sta emerald
-[19:21:34] [Server thread/INFO]: [Not Secure] <AbdulAcim> ali dobro
-[19:22:56] [Server thread/INFO]: [Not Secure] <AbdulAcim> ja sam protiv griefovanja farmi
-[19:23:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> dao sam fortune 2 pickaxe
-[19:23:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> 16 pearls
-[19:23:37] [Server thread/INFO]: [Not Secure] <AbdulAcim> u end chestu imam
-[19:24:14] [Server thread/INFO]: UXG34Y[IP hidden] logged in with entity id 218466 at (12168.636203990343, 73.0, 1165.509023068412)
-[19:24:14] [Server thread/INFO]: UXG34Y joined the game
-[19:24:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> ja cu duboko fightovati withera
-[19:24:47] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
-[19:30:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> gotovo
-[19:30:27] [Server thread/INFO]: [Not Secure] <AbdulAcim> nije me nijednom hitovao
-[19:30:47] [Server thread/INFO]: [Not Secure] <AbdulAcim> e da, dacete mi deepslate blokove
-[19:31:05] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa za farmu
-[19:31:13] [Server thread/INFO]: [Not Secure] <AbdulAcim> moze nego je lepsi
-[19:32:25] [Server thread/INFO]: [Not Secure] <AbdulAcim> bravo
-[19:32:51] [Server thread/INFO]: [Not Secure] <AbdulAcim> imam ja wood
-[19:32:57] [Server thread/INFO]: [Not Secure] <AbdulAcim> gomilu
-[19:34:04] [Server thread/INFO]: [Not Secure] <AbdulAcim> evo
-[19:34:05] [Server thread/INFO]: [Not Secure] <AbdulAcim> ladders
-[19:34:09] [Server thread/INFO]: banecane109 lost connection: Disconnected
-[19:34:09] [Server thread/INFO]: banecane109 left the game
-[19:36:07] [Server thread/INFO]: [Not Secure] <AbdulAcim> treba im light
-[19:36:23] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
-[19:36:27] [Server thread/INFO]: [Not Secure] <AbdulAcim> ali mozes i fazon
-[19:36:28] [Server thread/INFO]: [Not Secure] <AbdulAcim> glowstone
-[19:36:35] [Server thread/INFO]: [Not Secure] <AbdulAcim> ili od onih crvenih pecurki iz nethera
-[19:36:39] [Server thread/INFO]: [Not Secure] <AbdulAcim> ono svetlece cudo
-[19:37:20] [Server thread/INFO]: [Not Secure] <AbdulAcim> treba 3 obsidiana dole
-[19:37:23] [Server thread/INFO]: [Not Secure] <AbdulAcim> u centru star
-[19:37:28] [Server thread/INFO]: [Not Secure] <AbdulAcim> i ostatak staklo
-[19:40:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> nije bitno da li je iron, gold, diamond, emerald ili netherite beacon
-[19:40:49] [Server thread/INFO]: [Not Secure] <AbdulAcim> ali za svaki veci nivo moras da dodas jos jedan ispod layer
-[19:40:55] [Server thread/INFO]: [Not Secure] <AbdulAcim> prvi level ti je 3x3
-[19:40:59] [Server thread/INFO]: [Not Secure] <AbdulAcim> onda ispod toga 5x5
-[19:41:01] [Server thread/INFO]: [Not Secure] <AbdulAcim> 7x7
-[19:41:19] [Server thread/INFO]: [Not Secure] <AbdulAcim> usput, mozete da poredjate beacone 2x3
-[19:41:21] [Server thread/INFO]: [Not Secure] <AbdulAcim> da ih bude 6
-[19:41:23] [Server thread/INFO]: [Not Secure] <AbdulAcim> jedan do drugih
-[19:41:30] [Server thread/INFO]: [Not Secure] <AbdulAcim> i tako iskoristite manje blokova
-[19:43:18] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
-[19:43:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
-[19:44:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
-[19:44:35] [Server thread/INFO]: [Not Secure] <AbdulAcim> sta kenjas
-[19:44:40] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa 9x9
-[19:44:45] [Server thread/INFO]: [Not Secure] <AbdulAcim> onda drugi sprat 7x7
-[19:44:47] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa 5x5
-[19:44:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa 3x3
-[19:44:52] [Server thread/INFO]: [Not Secure] <AbdulAcim> i na vrhu beacon
-[19:46:19] [Server thread/INFO]: [Not Secure] <AbdulAcim> ali
-[19:46:21] [Server thread/INFO]: [Not Secure] <AbdulAcim> haste vam je
-[19:46:26] [Server thread/INFO]: [Not Secure] <AbdulAcim> kasnije level
-[19:49:21] [Server thread/INFO]: [Not Secure] <AbdulAcim> pa za sada je dovoljno
-[19:50:18] [Server thread/INFO]: [Not Secure] <AbdulAcim> cekaj
-[19:50:20] [Server thread/INFO]: [Not Secure] <AbdulAcim> da vidim nesto
-[19:52:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> lecic jedino moze da brije muda
-[19:52:08] [Server thread/INFO]: [Not Secure] <AbdulAcim> a i to jedva
-[19:52:16] [Server thread/INFO]: [Not Secure] <UXG34Y> ./mute AbdulAcim
-[19:53:03] [Server thread/INFO]: [Not Secure] <AbdulAcim> nisam
-[19:53:11] [Server thread/INFO]: [Not Secure] <AbdulAcim> au
-[19:53:14] [Server thread/INFO]: [Not Secure] <AbdulAcim> sta vi radite
-[19:53:38] [Server thread/INFO]: [Not Secure] <AbdulAcim> imate ench table?
-[19:53:39] [Server thread/INFO]: [Not Secure] <AbdulAcim> maxovan
-[19:54:09] [Server thread/INFO]: [Not Secure] <AbdulAcim> gde je
-[19:54:32] [Server thread/INFO]: [Not Secure] <AbdulAcim> jeste
-[19:58:26] [Server thread/INFO]: [Not Secure] <AbdulAcim> zar odbijas mleko
-[19:58:29] [Server thread/INFO]: [Not Secure] <AbdulAcim> koji si ti crnac
-[19:58:33] [Server thread/INFO]: [Not Secure] <AbdulAcim> skin checks out
-[19:59:01] [Server thread/INFO]: [Not Secure] <AbdulAcim> oces da pozajmis?
-[20:01:10] [Server thread/INFO]: [Not Secure] <AbdulAcim> to samo
-[20:01:13] [Server thread/INFO]: [Not Secure] <AbdulAcim> ako stojis mirno
-[20:01:16] [Server thread/INFO]: [Not Secure] <AbdulAcim> i to duze vreme
-[20:01:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> i onda ako udari u zid
-[20:01:25] [Server thread/INFO]: [Not Secure] <AbdulAcim> dropuje horn
-[20:01:28] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne mozes
-[20:01:35] [Server thread/INFO]: [Not Secure] <AbdulAcim> mozes samo da de-enchantujes ceo item
-[20:03:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> thorns imas na armoru
-[20:03:16] [Server thread/INFO]: [Not Secure] <AbdulAcim> au
-[20:03:18] [Server thread/INFO]: [Not Secure] <AbdulAcim> kakav waste
-[20:04:04] [Server thread/INFO]: [Not Secure] <AbdulAcim> levo idi
-[20:04:19] [Server thread/INFO]: [Not Secure] <AbdulAcim> treba hrana?
-[20:10:01] [Server thread/INFO]: L0LBree lost connection: Disconnected
-[20:10:01] [Server thread/INFO]: L0LBree left the game
-[20:10:20] [Server thread/INFO]: aleksa5636 lost connection: Disconnected
-[20:10:20] [Server thread/INFO]: aleksa5636 left the game
-[20:10:49] [Server thread/INFO]: [Not Secure] <AbdulAcim> migrant
-[20:23:50] [Server thread/INFO]: UXG34Y fell from a high place
-[20:23:51] [Server thread/WARN]: UXG34Y moved too quickly! 950.1999999880791,84.0,3142.199999988079
-[20:23:58] [Server thread/INFO]: [Not Secure] <AbdulAcim> sto si se ti
-[20:24:01] [Server thread/INFO]: [Not Secure] <AbdulAcim> eleportovao
-[20:24:27] [Server thread/INFO]: [Not Secure] <UXG34Y> kog si kurca ti tamo
-[20:24:37] [Server thread/INFO]: [Not Secure] <AbdulAcim> stronghold
-[20:24:40] [Server thread/INFO]: [Not Secure] <AbdulAcim> da pravim enderman farmu
-[20:24:49] [Server thread/INFO]: [Not Secure] <UXG34Y> samo pokupi stvari
-[20:24:50] [Server thread/INFO]: [Not Secure] <AbdulAcim> teleportuj se da uzmes stvari nazad
-[20:25:03] [Server thread/INFO]: [Not Secure] <UXG34Y> bila je perla
-[20:25:20] [Server thread/INFO]: [Not Secure] <AbdulAcim> a ti si me inace pratio do ovde
-[20:25:20] [Server thread/INFO]: [Not Secure] <UXG34Y> i udarila u zid
-[20:25:22] [Server thread/INFO]: [Not Secure] <AbdulAcim> aha
-[20:25:41] [Server thread/INFO]: [Not Secure] <UXG34Y> htero sam ja u end
-[20:25:48] [Server thread/INFO]: [Not Secure] <UXG34Y> znao sam da si tu kad sam dosao
-[20:26:12] [Server thread/INFO]: UXG34Y lost connection: Disconnected
-[20:26:12] [Server thread/INFO]: UXG34Y left the game
-[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11203, y=-23, z=-1958} class_2338{x=11204, y=-23, z=-1958}
-[20:43:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11203, y=-23, z=-1958} class_2338{x=11204, y=-23, z=-1958}
-[20:56:28] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 294947 at (11496.905128577782, 82.0, 2528.4628325583185)
-[20:56:28] [Server thread/INFO]: banecane109 joined the game
-[20:56:59] [Server thread/INFO]: banecane109 was slain by Zombie
-[20:58:28] [Server thread/INFO]: banecane109 lost connection: Disconnected
-[20:58:28] [Server thread/INFO]: banecane109 left the game
-[21:04:39] [Server thread/INFO]: Dzzoniii[IP hidden] logged in with entity id 297285 at (12171.387851461921, 141.0, 480.6281732877507)
-[21:04:39] [Server thread/INFO]: Dzzoniii joined the game
-[21:10:32] [Server thread/INFO]: Villager class_1646['Nitwit'/297736, l='ServerLevel[world]', x=12148.68, y=63.02, z=25.83] died, message: 'Nitwit burned to death'
-[21:10:47] [Server thread/INFO]: [Not Secure] <Dzzoniii> vlada picka
-[21:37:54] [Server thread/INFO]: Dzzoniii lost connection: Disconnected
-[21:37:54] [Server thread/INFO]: Dzzoniii left the game
-[22:09:55] [Server thread/INFO]: AbdulAcim lost connection: Disconnected
-[22:09:55] [Server thread/INFO]: AbdulAcim left the game
-[22:10:31] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 309120 at (11510.26683208086, 78.0, 2513.3754488425575)
-[22:10:31] [Server thread/INFO]: banecane109 joined the game
-[22:19:08] [Server thread/INFO]: AbdulAcim[IP hidden] logged in with entity id 315110 at (12292.727677259305, 66.5625, -678.3000000119209)
-[22:19:08] [Server thread/INFO]: AbdulAcim joined the game
-[22:25:59] [Server thread/INFO]: [Not Secure] <AbdulAcim> gde si
-[22:26:19] [Server thread/INFO]: [Not Secure] <AbdulAcim> solidan je loot
-[22:26:21] [Server thread/INFO]: [Not Secure] <banecane109> thx
-[22:27:36] [Server thread/INFO]: [Not Secure] <AbdulAcim> ako nije problem, ja cu se negde blizu logovati
-[22:27:59] [Server thread/INFO]: [Not Secure] <banecane109> logovati?
-[22:28:03] [Server thread/INFO]: [Not Secure] <AbdulAcim> izlogovati
-[22:28:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=116, z=2395} class_2338{x=11543, y=114, z=2397}
-[22:28:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=116, z=2395} class_2338{x=11543, y=114, z=2397}
-[22:28:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=116, z=2395} class_2338{x=11543, y=114, z=2397}
-[22:29:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=117, z=2386} class_2338{x=11547, y=116, z=2386}
-[22:29:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=117, z=2386} class_2338{x=11547, y=116, z=2386}
-[22:29:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=113, z=2393} class_2338{x=11548, y=113, z=2395}
-[22:29:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=113, z=2393} class_2338{x=11548, y=113, z=2395}
-[22:29:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=113, z=2393} class_2338{x=11548, y=113, z=2395}
-[22:29:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=113, z=2393} class_2338{x=11548, y=113, z=2395}
-[22:29:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=113, z=2393} class_2338{x=11548, y=113, z=2395}
-[22:29:55] [Server thread/INFO]: [Not Secure] <banecane109> udji kod mene u kucu pa se izloguj
-[22:30:02] [Server thread/INFO]: [Not Secure] <AbdulAcim> ma neka
-[22:30:06] [Server thread/INFO]: [Not Secure] <AbdulAcim> nije mi problem ovde
-[22:30:11] [Server thread/INFO]: [Not Secure] <AbdulAcim> taman cu da skupim ovaj packed ice
-[22:30:13] [Server thread/INFO]: [Not Secure] <banecane109> ubicete zombi sledeci put kas budes usao
-[22:30:18] [Server thread/INFO]: [Not Secure] <AbdulAcim> ukopacu se
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11540, y=116, z=2387}
-[22:30:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11540, y=117, z=2388} class_2338{x=11538, y=116, z=2385}
-[22:30:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11537, y=115, z=2378} class_2338{x=11536, y=115, z=2379}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11541, y=117, z=2386} class_2338{x=11540, y=118, z=2386}
-[22:30:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11544, y=119, z=2387} class_2338{x=11544, y=119, z=2386}
-[22:30:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11544, y=118, z=2392} class_2338{x=11545, y=118, z=2391}
-[22:30:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11544, y=118, z=2392} class_2338{x=11545, y=118, z=2391}
-[22:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11544, y=116, z=2388} class_2338{x=11545, y=115, z=2388}
-[22:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11543, y=116, z=2390} class_2338{x=11544, y=115, z=2390}
-[22:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11543, y=116, z=2390} class_2338{x=11544, y=115, z=2390}
-[22:31:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11545, y=115, z=2388} class_2338{x=11541, y=115, z=2396}
-[22:32:35] [Server thread/INFO]: [Not Secure] <banecane109> odo ja akik pa se vidimo
-[22:32:38] [Server thread/INFO]: [Not Secure] <AbdulAcim> vidimo se
-[22:32:40] [Server thread/INFO]: banecane109 lost connection: Disconnected
-[22:32:40] [Server thread/INFO]: banecane109 left the game
-[22:33:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11546, y=116, z=2385} class_2338{x=11548, y=114, z=2387}
-[22:34:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11518, y=110, z=2341} class_2338{x=11519, y=110, z=2342}
-[22:34:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11518, y=110, z=2341} class_2338{x=11519, y=110, z=2342}
-[22:34:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11518, y=110, z=2341} class_2338{x=11519, y=110, z=2342}
-[22:34:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11518, y=110, z=2341} class_2338{x=11519, y=110, z=2342}
-[22:39:23] [Server thread/INFO]: AbdulAcim lost connection: Disconnected
-[22:39:23] [Server thread/INFO]: AbdulAcim left the game
-[22:50:48] [Server thread/INFO]: Stopping the server
-[22:50:48] [Server thread/INFO]: Stopping server
-[22:50:48] [Server thread/INFO]: Saving players
-[22:50:48] [Server thread/INFO]: Saving worlds
-[22:50:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[22:50:49] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[22:50:49] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[22:50:49] [Server thread/INFO]: Saved 0 block chunks, 98 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:overworld]' in 0.12s
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[22:50:49] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[22:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[22:50:49] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[22:50:49] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[22:50:49] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_nether]' in 0.02s
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[22:50:49] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[22:50:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[22:50:49] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[22:50:49] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[22:50:49] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_end]' in 0.03s
-[22:50:49] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[22:50:49] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[22:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:50:49] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:50:49] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[22:50:49] [Server thread/INFO]: Awaiting termination of worker pool for up to 60s...
-[22:50:49] [Server thread/INFO]: Awaiting termination of I/O pool for up to 60s...
+[09:04:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/dinic/Desktop/.IMPY/LessImp/MincraftServer/mc-smp/server-files/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:04:17] [main/INFO]: Compatibility level set to JAVA_17
+[09:04:17] [main/INFO]: Compatibility level set to JAVA_21
+[09:04:17] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[09:04:17] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[09:04:17] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[09:04:17] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
+[09:04:17] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[09:04:17] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[09:04:17] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[09:04:17] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[09:04:17] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.PoiSectionMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.PoiTypesMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.SectionStorageMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.LocateHidingPlaceMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.RaiderEntityAttackHomeGoalMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkCacheMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'alloc.deep_passengers.EntityMixin' as rule 'mixin.alloc.deep_passengers' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'alloc.entity_tracker.ChunkMap$TrackedEntityMixin' as rule 'mixin.alloc.entity_tracker' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'block.flatten_states.FluidStateMixin' as rule 'mixin.block.flatten_states' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'chunk.entity_class_groups.ClassInstanceMultiMapMixin' as rule 'mixin.chunk.entity_class_groups' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'chunk.no_validation.SimpleBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'chunk.no_validation.ZeroBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'collections.chunk_tickets.SortedArraySetMixin' as rule 'mixin.collections.chunk_tickets' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'collections.entity_ticking.EntityTickListMixin' as rule 'mixin.collections.entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.EntityGetterMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.LevelMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.movement.EntityMixin' as rule 'mixin.entity.collisions.movement' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.AbstractMinecartMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.BoatMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySectionMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySelectorMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractMinecartMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ArmorStandMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.GolemRandomStrollInVillageGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.HangingEntityMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ItemFrameMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.LlamaFollowCaravanGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.BlockPosMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.DirectionMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_util.AABBMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$BackwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$ForwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'math.fast_util.DirectionMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.ArrayVoxelShapeInvoker' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.BitSetDiscreteVoxelShapeAccessor' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.LevelMixin' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.world.expiring_chunk_tickets.DistanceManagerMixin' as rule 'mixin.minimal_nonvanilla.world.expiring_chunk_tickets' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'shapes.blockstate_cache.BlockMixin' as rule 'mixin.shapes.blockstate_cache' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'shapes.optimized_matching.ShapesMixin' as rule 'mixin.shapes.optimized_matching' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.ShapesMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapeMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.block_tracking.BlockStateBaseMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.block_tracking.LevelChunkSectionMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.EntitySectionMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.PersistentEntitySectionManagerAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerListenerMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerLevelAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.chunk_access.GenerationChunkHolderAccessor' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.chunk_access.LevelMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.chunk_access.ServerChunkCacheMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.explosions.block_raycast.ExplosionMixin' as rule 'mixin.world.explosions.block_raycast' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionDamageCalculatorMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.temperature_cache.BiomeMixin' as rule 'mixin.world.temperature_cache' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-disabling mixin 'world.tick_scheduler.LevelChunkTicksMixin' as rule 'mixin.world.tick_scheduler' (added by mods [moonrise]) disables it and children
+[09:04:17] [main/WARN]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[09:04:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:04:22] [main/INFO]: Compression will use Java, encryption will use Java
+[09:04:22] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[09:04:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:04:23] [main/INFO]: Loaded 1290 recipes
+[09:04:23] [main/INFO]: Loaded 1399 advancements
+[09:04:23] [main/INFO]: Chunk system is using population gen parallelism: false
+[09:04:23] [main/INFO]: Moonrise is using 4 worker threads, 1 I/O threads
+[09:04:23] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.166 ms
+[09:04:24] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[09:04:24] [Server thread/INFO]: Loading properties
+[09:04:24] [Server thread/INFO]: Default game type: SURVIVAL
+[09:04:24] [Server thread/INFO]: Generating keypair
+[09:04:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[09:04:24] [Server thread/INFO]: Using default channel type
+[09:04:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:04:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:04:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[09:04:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:04:24] [Server thread/INFO]: Preparing level "world"
+[09:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:04:25] [Server thread/INFO]: Preparing spawn area: 0%
+[09:04:25] [Server thread/INFO]: Time elapsed: 341 ms
+[09:04:25] [Server thread/INFO]: Done (1.541s)! For help, type "help"
+[09:10:23] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 7 at (11509.784940489488, 78.0, 2513.7511940465115)
+[09:10:23] [Server thread/INFO]: banecane109 joined the game
+[09:10:25] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[09:23:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1421, y=76, z=290} class_2338{x=1421, y=77, z=290}
+[09:23:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1421, y=76, z=290} class_2338{x=1421, y=77, z=290}
+[09:29:16] [Server thread/INFO]: banecane109 fell from a high place
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:29:18] [Server thread/WARN]: banecane109 moved too quickly! 3.356411635480981,54.0,-64.59854733814518
+[09:30:12] [Server thread/INFO]: banecane109 lost connection: Disconnected
+[09:30:12] [Server thread/INFO]: banecane109 left the game
+[09:30:16] [Server thread/INFO]: Saving the game (this may take a moment!)
+[09:30:16] [Server thread/INFO]: Saved the game
+[10:09:55] [Server thread/INFO]: Saving the game (this may take a moment!)
+[10:09:56] [Server thread/INFO]: Saved the game
+[10:56:14] [Server thread/INFO]: Saving the game (this may take a moment!)
+[10:56:14] [Server thread/INFO]: Saved the game
+[10:56:15] [Server thread/INFO]: Stopping the server
+[10:56:15] [Server thread/INFO]: Stopping server
+[10:56:15] [Server thread/INFO]: Saving players
+[10:56:15] [Server thread/INFO]: Saving worlds
+[10:56:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:56:15] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[10:56:15] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[10:56:15] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[10:56:16] [Server thread/INFO]: Saved 0 block chunks, 4 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:overworld]' in 0.06s
+[10:56:16] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[10:56:16] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[10:56:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:56:16] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[10:56:16] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[10:56:16] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[10:56:16] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_end]' in 0.00s
+[10:56:16] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[10:56:16] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[10:56:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:56:16] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[10:56:16] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[10:56:16] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[10:56:16] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_nether]' in 0.02s
+[10:56:16] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[10:56:16] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[10:56:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:56:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:56:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:56:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:56:16] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[10:56:16] [Server thread/INFO]: Awaiting termination of worker pool for up to 60s...
+[10:56:16] [Server thread/INFO]: Awaiting termination of I/O pool for up to 60s...
