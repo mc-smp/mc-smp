@@ -1,5 +1,5 @@
-[15:17:21] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
-[15:17:22] [main/INFO]: Loading 47 mods:
+[18:49:00] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.7
+[18:49:00] [main/INFO]: Loading 47 mods:
 	- fabric-api 0.106.0+1.21.1
 	   |-- fabric-api-base 0.4.42+6573ed8c19
 	   |-- fabric-api-lookup-api-v1 1.6.68+b559734419
@@ -51,7 +51,7 @@
 	   \-- fabric-transitive-access-wideners-v1 6.1.0+1daea21519
 	- fabricloader 0.16.7
 	   \-- mixinextras 0.4.1
-	- java 23
+	- java 21
 	- krypton 0.2.8
 	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
 	- lithium 0.14.0-snapshot+mc1.21.1-build.88
@@ -59,169 +59,241 @@
 	- moonrise 0.1.0-beta.6+9da9957
 	   \-- cloth-config 15.0.128
 	        \-- cloth-basic-math 0.6.1
-[15:17:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/urosx/Desktop/mc-smp/server-files/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:17:22] [main/INFO]: Compatibility level set to JAVA_17
-[15:17:22] [main/INFO]: Compatibility level set to JAVA_21
-[15:17:22] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[15:17:22] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[15:17:22] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[15:17:22] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
-[15:17:22] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[15:17:22] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[15:17:22] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[15:17:22] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[15:17:22] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.PoiSectionMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.PoiTypesMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.SectionStorageMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.LocateHidingPlaceMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.RaiderEntityAttackHomeGoalMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkCacheMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'alloc.deep_passengers.EntityMixin' as rule 'mixin.alloc.deep_passengers' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'alloc.entity_tracker.ChunkMap$TrackedEntityMixin' as rule 'mixin.alloc.entity_tracker' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'block.flatten_states.FluidStateMixin' as rule 'mixin.block.flatten_states' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'chunk.entity_class_groups.ClassInstanceMultiMapMixin' as rule 'mixin.chunk.entity_class_groups' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'chunk.no_validation.SimpleBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'chunk.no_validation.ZeroBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'collections.chunk_tickets.SortedArraySetMixin' as rule 'mixin.collections.chunk_tickets' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'collections.entity_ticking.EntityTickListMixin' as rule 'mixin.collections.entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.EntityGetterMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.LevelMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.movement.EntityMixin' as rule 'mixin.entity.collisions.movement' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.AbstractMinecartMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.BoatMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySectionMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySelectorMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractMinecartMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ArmorStandMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.GolemRandomStrollInVillageGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.HangingEntityMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ItemFrameMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.LlamaFollowCaravanGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.BlockPosMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.DirectionMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_util.AABBMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$BackwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$ForwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'math.fast_util.DirectionMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.ArrayVoxelShapeInvoker' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.BitSetDiscreteVoxelShapeAccessor' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.LevelMixin' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.world.expiring_chunk_tickets.DistanceManagerMixin' as rule 'mixin.minimal_nonvanilla.world.expiring_chunk_tickets' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'shapes.blockstate_cache.BlockMixin' as rule 'mixin.shapes.blockstate_cache' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'shapes.optimized_matching.ShapesMixin' as rule 'mixin.shapes.optimized_matching' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.ShapesMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapeMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.block_tracking.BlockStateBaseMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.block_tracking.LevelChunkSectionMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.EntitySectionMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.PersistentEntitySectionManagerAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerListenerMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerLevelAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.chunk_access.GenerationChunkHolderAccessor' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.chunk_access.LevelMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.chunk_access.ServerChunkCacheMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.explosions.block_raycast.ExplosionMixin' as rule 'mixin.world.explosions.block_raycast' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionDamageCalculatorMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.temperature_cache.BiomeMixin' as rule 'mixin.world.temperature_cache' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-disabling mixin 'world.tick_scheduler.LevelChunkTicksMixin' as rule 'mixin.world.tick_scheduler' (added by mods [moonrise]) disables it and children
-[15:17:22] [main/WARN]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[15:17:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:17:28] [main/INFO]: Compression will use Java, encryption will use Java
-[15:17:28] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[15:17:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:17:30] [main/INFO]: Loaded 1290 recipes
-[15:17:30] [main/INFO]: Loaded 1399 advancements
-[15:17:31] [main/INFO]: Chunk system is using population gen parallelism: false
-[15:17:31] [main/INFO]: Moonrise is using 3 worker threads, 1 I/O threads
-[15:17:31] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.021 ms
-[15:17:31] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[15:17:31] [Server thread/INFO]: Loading properties
-[15:17:31] [Server thread/INFO]: Default game type: SURVIVAL
-[15:17:31] [Server thread/INFO]: Generating keypair
-[15:17:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:17:31] [Server thread/INFO]: Using default channel type
-[15:17:31] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:17:31] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:17:31] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:17:31] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:17:31] [Server thread/INFO]: Preparing level "world"
-[15:17:34] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:17:34] [Server thread/INFO]: Preparing spawn area: 0%
-[15:17:35] [Server thread/INFO]: Preparing spawn area: 0%
-[15:17:35] [Server thread/INFO]: Time elapsed: 584 ms
-[15:17:35] [Server thread/INFO]: Done (3.210s)! For help, type "help"
-[15:18:51] [Server thread/INFO]: UXG34Y[IP hidden] logged in with entity id 3 at (12171.699999988079, 65.0, 1207.300000011921)
-[15:18:51] [Server thread/INFO]: UXG34Y joined the game
-[15:18:53] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[15:18:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2030ms or 40 ticks behind
-[15:20:27] [Server thread/INFO]: Villager class_1646['Librarian'/95, l='ServerLevel[world]', x=12189.30, y=69.00, z=1163.30] died, message: 'Librarian was slain by Zombie'
-[15:20:42] [Server thread/INFO]: Villager class_1646['Cleric'/97, l='ServerLevel[world]', x=12187.30, y=69.00, z=1163.30] died, message: 'Cleric was burned to a crisp while fighting Zombie'
-[15:22:39] [Server thread/WARN]: UXG34Y moved too quickly! -7.036568202178387,10.587244497445127,11.923202878849679
-[15:22:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2225ms or 44 ticks behind
-[15:32:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=12174, y=68, z=1164} class_2338{x=12174, y=69, z=1165}
-[16:53:19] [Server thread/INFO]: Gave 1 [Carved Pumpkin] to UXG34Y
-[16:55:07] [Server thread/INFO]: UXG34Y lost connection: Disconnected
-[16:55:07] [Server thread/INFO]: UXG34Y left the game
-[16:55:18] [Server thread/INFO]: Saving the game (this may take a moment!)
-[16:55:18] [Server thread/INFO]: Saved the game
-[16:55:20] [Server thread/INFO]: Stopping the server
-[16:55:20] [Server thread/INFO]: Stopping server
-[16:55:20] [Server thread/INFO]: Saving players
-[16:55:20] [Server thread/INFO]: Saving worlds
-[16:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[16:55:20] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[16:55:20] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[16:55:20] [Server thread/INFO]: Saved 0 block chunks, 88 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:overworld]' in 0.10s
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[16:55:20] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
-[16:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[16:55:20] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[16:55:20] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[16:55:20] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_end]' in 0.00s
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[16:55:20] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
-[16:55:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[16:55:20] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[16:55:20] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[16:55:20] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_nether]' in 0.00s
-[16:55:20] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[16:55:20] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
-[16:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:55:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[16:55:20] [Server thread/INFO]: Waiting for I/O tasks to complete...
-[16:55:20] [Server thread/INFO]: Awaiting termination of worker pool for up to 60s...
-[16:55:20] [Server thread/INFO]: Awaiting termination of I/O pool for up to 60s...
+[18:49:00] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/dinic/Desktop/.IMPY/LessImp/MincraftServer/mc-smp/server-files/libraries/net/fabricmc/sponge-mixin/0.15.3+mixin.0.8.7/sponge-mixin-0.15.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:49:00] [main/INFO]: Compatibility level set to JAVA_17
+[18:49:00] [main/INFO]: Compatibility level set to JAVA_21
+[18:49:00] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[18:49:00] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[18:49:00] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[18:49:00] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
+[18:49:00] [main/WARN]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[18:49:00] [main/WARN]: Option 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache' requires 'mixin.world.block_entity_ticking=true' but found 'false'. Setting 'mixin.minimal_nonvanilla.world.block_entity_ticking.support_cache=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[18:49:00] [main/WARN]: Option 'mixin.block.hopper' requires 'mixin.util.entity_movement_tracking=true' but found 'false'. Setting 'mixin.block.hopper=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[18:49:00] [main/WARN]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[18:49:00] [main/INFO]: Loaded configuration file for Lithium: 145 options available, 29 override(s) found
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.PoiSectionMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.PoiTypesMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.SectionStorageMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PoiManagerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.fast_portals.PortalForcerMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.LocateHidingPlaceMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'ai.poi.tasks.RaiderEntityAttackHomeGoalMixin' as rule 'mixin.ai.poi' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'alloc.chunk_ticking.ServerChunkCacheMixin' as rule 'mixin.alloc.chunk_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'alloc.deep_passengers.EntityMixin' as rule 'mixin.alloc.deep_passengers' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'alloc.entity_tracker.ChunkMap$TrackedEntityMixin' as rule 'mixin.alloc.entity_tracker' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'block.flatten_states.FluidStateMixin' as rule 'mixin.block.flatten_states' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'chunk.entity_class_groups.ClassInstanceMultiMapMixin' as rule 'mixin.chunk.entity_class_groups' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'chunk.no_validation.SimpleBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'chunk.no_validation.ZeroBitStorageMixin' as rule 'mixin.chunk.no_validation' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'collections.chunk_tickets.SortedArraySetMixin' as rule 'mixin.collections.chunk_tickets' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'collections.entity_ticking.EntityTickListMixin' as rule 'mixin.collections.entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.EntityGetterMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.intersection.LevelMixin' as rule 'mixin.entity.collisions.intersection' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.movement.EntityMixin' as rule 'mixin.entity.collisions.movement' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.AbstractMinecartMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.BoatMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySectionMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.EntitySelectorMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.collisions.unpushable_cramming.LivingEntityMixin' as rule 'mixin.entity.collisions.unpushable_cramming' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.AbstractMinecartMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ArmorStandMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.GolemRandomStrollInVillageGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.HangingEntityMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.ItemFrameMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'entity.replace_entitytype_predicates.LlamaFollowCaravanGoalMixin' as rule 'mixin.entity.replace_entitytype_predicates' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.BlockPosMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_blockpos.DirectionMixin' as rule 'mixin.math.fast_blockpos' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_util.AABBMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$BackwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_util.AxisCycleDirectionMixin$ForwardMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'math.fast_util.DirectionMixin' as rule 'mixin.math.fast_util' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.ArrayVoxelShapeInvoker' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.BitSetDiscreteVoxelShapeAccessor' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.collisions.empty_space.LevelMixin' as rule 'mixin.minimal_nonvanilla.collisions.empty_space' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'minimal_nonvanilla.world.expiring_chunk_tickets.DistanceManagerMixin' as rule 'mixin.minimal_nonvanilla.world.expiring_chunk_tickets' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'shapes.blockstate_cache.BlockMixin' as rule 'mixin.shapes.blockstate_cache' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'shapes.optimized_matching.ShapesMixin' as rule 'mixin.shapes.optimized_matching' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.ShapesMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'shapes.specialized_shapes.VoxelShapeMixin' as rule 'mixin.shapes.specialized_shapes' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.block_tracking.BlockStateBaseMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.block_tracking.LevelChunkSectionMixin' as rule 'mixin.util.block_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.EntitySectionMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.PersistentEntitySectionManagerAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerEntityManagerListenerMixin' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'util.entity_movement_tracking.ServerLevelAccessor' as rule 'mixin.util.entity_movement_tracking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelChunkMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.LevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.ServerLevelMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.WrappedBlockEntityTickInvokerAccessor' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.brewing_stand.BrewingStandBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.lit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.campfire.unlit.CampfireBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.furnace.AbstractFurnaceBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.hopper.HopperBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.sleeping.shulker_box.ShulkerBoxBlockEntityMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.block_entity_ticking.world_border.DirectBlockEntityTickInvokerMixin' as rule 'mixin.world.block_entity_ticking' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.chunk_access.ChunkHolderMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.chunk_access.GenerationChunkHolderAccessor' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.chunk_access.LevelMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.chunk_access.ServerChunkCacheMixin' as rule 'mixin.world.chunk_access' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.explosions.block_raycast.ExplosionMixin' as rule 'mixin.world.explosions.block_raycast' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionDamageCalculatorMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.explosions.cache_exposure.ExplosionMixin' as rule 'mixin.world.explosions.cache_exposure' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.temperature_cache.BiomeMixin' as rule 'mixin.world.temperature_cache' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-disabling mixin 'world.tick_scheduler.LevelChunkTicksMixin' as rule 'mixin.world.tick_scheduler' (added by mods [moonrise]) disables it and children
+[18:49:00] [main/WARN]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[18:49:01] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:49:05] [main/INFO]: Compression will use Java, encryption will use Java
+[18:49:05] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:49:05] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:49:06] [main/INFO]: Loaded 1290 recipes
+[18:49:06] [main/INFO]: Loaded 1399 advancements
+[18:49:06] [main/INFO]: Chunk system is using population gen parallelism: false
+[18:49:06] [main/INFO]: Moonrise is using 4 worker threads, 1 I/O threads
+[18:49:06] [main/INFO]: Applied 0 biome modifications to 0 of 64 new biomes in 1.395 ms
+[18:49:07] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[18:49:07] [Server thread/INFO]: Loading properties
+[18:49:07] [Server thread/INFO]: Default game type: SURVIVAL
+[18:49:07] [Server thread/INFO]: Generating keypair
+[18:49:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:49:07] [Server thread/INFO]: Using default channel type
+[18:49:07] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:49:07] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:49:07] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:49:07] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:49:07] [Server thread/INFO]: Preparing level "world"
+[18:49:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[18:49:08] [Server thread/INFO]: Preparing spawn area: 0%
+[18:49:08] [Server thread/INFO]: Time elapsed: 326 ms
+[18:49:08] [Server thread/INFO]: Done (1.517s)! For help, type "help"
+[18:49:10] [Server thread/INFO]: L0LBree[IP hidden] logged in with entity id 5 at (11445.07253166556, 79.0, 2538.9229430037276)
+[18:49:10] [Server thread/INFO]: L0LBree joined the game
+[18:49:11] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[18:49:12] [Server thread/INFO]: aleksa5636[IP hidden] logged in with entity id 192 at (1529.777828947283, 89.0, 224.87242224362163)
+[18:49:12] [Server thread/INFO]: aleksa5636 joined the game
+[18:49:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2014ms or 40 ticks behind
+[18:49:17] [Server thread/INFO]: AbdulAcim[IP hidden] logged in with entity id 879 at (1686.7445529556983, 68.16610926093821, 121.59171395064267)
+[18:49:17] [Server thread/INFO]: AbdulAcim joined the game
+[18:49:48] [Server thread/INFO]: [Not Secure] <AbdulAcim> korde
+[18:49:52] [Server thread/INFO]: [Not Secure] <AbdulAcim> i Y
+[18:49:55] [Server thread/INFO]: [Not Secure] <AbdulAcim> ukucaj
+[18:49:58] [Server thread/INFO]: [Not Secure] <aleksa5636> 84
+[18:50:04] [Server thread/INFO]: [Not Secure] <AbdulAcim> a X z?
+[18:50:08] [Server thread/INFO]: [Not Secure] <aleksa5636> 1442 84 321
+[18:52:24] [Server thread/INFO]: [Not Secure] <AbdulAcim> sta bre ti pravis
+[19:01:24] [Server thread/INFO]: [Not Secure] <AbdulAcim> mozes sa boatom
+[19:01:34] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
+[19:01:40] [Server thread/INFO]: [Not Secure] <AbdulAcim> tako ljudi odrade onaj achievement
+[19:01:44] [Server thread/INFO]: [Not Secure] <AbdulAcim> 2 birds with 1 arrow
+[19:02:31] [Server thread/INFO]: [Not Secure] <AbdulAcim> andjelicu
+[19:02:40] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne
+[19:02:58] [Server thread/INFO]: [Not Secure] <AbdulAcim> da
+[19:04:37] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:04:37] [Server thread/INFO]: Saved the game
+[19:04:55] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne treba
+[19:05:27] [Server thread/INFO]: [Not Secure] <AbdulAcim> ko je pravio ovo
+[19:05:49] [Server thread/INFO]: [Not Secure] <AbdulAcim> andjelicu
+[19:05:50] [Server thread/INFO]: [Not Secure] <AbdulAcim> dodji vamo
+[19:05:55] [Server thread/INFO]: [Not Secure] <AbdulAcim> kod cikijeve kuce
+[19:06:15] [Server thread/INFO]: [Not Secure] <AbdulAcim> ne treba
+[19:06:23] [Server thread/INFO]: [Not Secure] <AbdulAcim> stavicu ovde cikiju
+[19:09:01] [Server thread/INFO]: [Not Secure] <AbdulAcim> ja odoh
+[19:09:41] [Server thread/INFO]: AbdulAcim lost connection: Disconnected
+[19:09:41] [Server thread/INFO]: AbdulAcim left the game
+[19:13:53] [Server thread/INFO]: [Not Secure] <aleksa5636> ja idem
+[19:13:58] [Server thread/INFO]: [Not Secure] <L0LBree> aj
+[19:14:14] [Server thread/INFO]: [Not Secure] <aleksa5636> ja cu nastaviti da igram i napravicu novu kucu umesto brankove
+[19:14:19] [Server thread/INFO]: [Not Secure] <aleksa5636> da ne ostane onako
+[19:14:43] [Server thread/INFO]: [Not Secure] <L0LBree> ja sam mislio da popravim brankovu
+[19:14:50] [Server thread/INFO]: [Not Secure] <aleksa5636> mozemo i to
+[19:15:07] [Server thread/INFO]: [Not Secure] <L0LBree> ja cu je popraviti ako nemas ti vremena samo ovo da zavrsim
+[19:15:12] [Server thread/INFO]: [Not Secure] <aleksa5636> vazi
+[19:15:26] [Server thread/INFO]: [Not Secure] <aleksa5636> ja moram da odradim nesto za programiranje
+[19:15:31] [Server thread/INFO]: aleksa5636 lost connection: Disconnected
+[19:15:31] [Server thread/INFO]: aleksa5636 left the game
+[19:15:31] [Server thread/INFO]: [Not Secure] <L0LBree> ok lagano
+[19:20:16] [Server thread/INFO]: Saving the game (this may take a moment!)
+[19:20:17] [Server thread/INFO]: Saved the game
+[19:25:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11464, y=82, z=2554} class_2338{x=11463, y=81, z=2554}
+[19:29:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11471, y=79, z=2550} class_2338{x=11471, y=80, z=2550}
+[19:30:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11472, y=82, z=2549} class_2338{x=11471, y=82, z=2550}
+[19:35:10] [Server thread/INFO]: banecane109[IP hidden] logged in with entity id 8055 at (11492.80839528987, 79.0, 2549.7964344227958)
+[19:35:10] [Server thread/INFO]: banecane109 joined the game
+[19:35:32] [Server thread/INFO]: [Not Secure] <L0LBree> sacu ja da ti poravim kuci
+[19:35:44] [Server thread/INFO]: [Not Secure] <L0LBree> andjelic je hteo ali nije imao vremena
+[19:35:48] [Server thread/INFO]: [Not Secure] <banecane109> ma ostavi je kakva je
+[19:38:15] [Server thread/INFO]: [Not Secure] <L0LBree> i meni je glupo ovo sto je andjelic stavljao
+[19:38:29] [Server thread/INFO]: [Not Secure] <banecane109> ma nek stavlja sta hoce
+[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11478, y=82, z=2558} class_2338{x=11478, y=79, z=2558}
+[19:41:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11478, y=82, z=2558} class_2338{x=11478, y=79, z=2558}
+[19:46:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11468, y=81, z=2568} class_2338{x=11470, y=79, z=2572}
+[19:50:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11472, y=83, z=2560} class_2338{x=11473, y=81, z=2560}
+[19:50:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11472, y=83, z=2560} class_2338{x=11472, y=78, z=2560}
+[19:50:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=11472, y=83, z=2560} class_2338{x=11472, y=78, z=2560}
+[19:54:39] [Server thread/INFO]: [Not Secure] <L0LBree> jbt ovaj iz videa je sjebao kalkulacije svega sam kratak
+[19:54:50] [Server thread/INFO]: [Not Secure] <banecane109> jebiga
+[19:56:39] [Server thread/INFO]: [Not Secure] <banecane109> kako lep prizor
+[19:56:49] [Server thread/INFO]: [Not Secure] <L0LBree> gde?
+[19:56:56] [Server thread/INFO]: [Not Secure] <banecane109> ovde kod nas
+[19:57:07] [Server thread/INFO]: [Not Secure] <L0LBree> a dda
+[19:58:04] [Server thread/INFO]: [Not Secure] <L0LBree> jbt ova stala ima automatsku farmu jaja hahahah
+[19:58:17] [Server thread/INFO]: [Not Secure] <banecane109> finno
+[19:59:23] [Server thread/INFO]: [Not Secure] <L0LBree> i to ne samo jednu nego 2
+[19:59:25] [Server thread/INFO]: [Not Secure] <L0LBree> hahahaha
+[19:59:31] [Server thread/INFO]: [Not Secure] <L0LBree> za koji ce mi
+[20:01:17] [Server thread/INFO]: Saving the game (this may take a moment!)
+[20:01:17] [Server thread/INFO]: Saved the game
+[20:01:22] [Server thread/INFO]: banecane109 lost connection: Disconnected
+[20:01:22] [Server thread/INFO]: banecane109 left the game
+[20:01:28] [Server thread/INFO]: [Not Secure] [Server] otisao sam ja
+[20:01:36] [Server thread/INFO]: [Not Secure] <L0LBree> aj
+[20:03:31] [Server thread/INFO]: Saving the game (this may take a moment!)
+[20:03:31] [Server thread/INFO]: Saved the game
+[20:05:23] [Server thread/INFO]: L0LBree lost connection: Disconnected
+[20:05:23] [Server thread/INFO]: L0LBree left the game
+[20:06:01] [Server thread/INFO]: Saving the game (this may take a moment!)
+[20:06:01] [Server thread/INFO]: Saved the game
+[20:06:02] [Server thread/INFO]: Stopping the server
+[20:06:03] [Server thread/INFO]: Stopping server
+[20:06:03] [Server thread/INFO]: Saving players
+[20:06:03] [Server thread/INFO]: Saving worlds
+[20:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[20:06:03] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[20:06:03] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[20:06:03] [Server thread/INFO]: Saved 0 block chunks, 3 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:overworld]' in 0.04s
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[20:06:03] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:overworld]'
+[20:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[20:06:03] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[20:06:03] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[20:06:03] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_end]' in 0.00s
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[20:06:03] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_end]'
+[20:06:03] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk system to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[20:06:03] [Server thread/INFO]: Halted chunk system for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[20:06:03] [Server thread/INFO]: Saving all chunkholders for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[20:06:03] [Server thread/INFO]: Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'ResourceKey[minecraft:dimension / minecraft:the_nether]' in 0.02s
+[20:06:03] [Server thread/INFO]: Waiting 60s for chunk I/O to halt for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[20:06:03] [Server thread/INFO]: Halted I/O scheduler for world 'ResourceKey[minecraft:dimension / minecraft:the_nether]'
+[20:06:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:06:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:06:03] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:06:03] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:06:03] [Server thread/INFO]: Waiting for I/O tasks to complete...
+[20:06:03] [Server thread/INFO]: Awaiting termination of worker pool for up to 60s...
+[20:06:03] [Server thread/INFO]: Awaiting termination of I/O pool for up to 60s...
